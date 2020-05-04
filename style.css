@@ -1,0 +1,61 @@
+.alignMiddle {
+  text-align: center;
+  margin: 10px;
+}
+
+.box {
+  border: 6px double rgba(164, 9, 161, 0.57);
+  border-radius: 8px;
+  padding: 5px;
+  padding-bottom: 5px;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -50px 0 0 -165px;
+  background-color:     #3f5efb 0%  ;
+  color: white;
+  -webkit-box-shadow:0px 0px 100px 18px #fc466b ;
+-moz-box-shadow:0px 0px 100px 18px #fc466b ;
+box-shadow:0px 0px 100px 18px #fc466b ;
+z-index: -1;
+}
+
+#startButton {
+  position: absolute;
+  top: 70%;
+  left: 32%;
+}
+
+#pauseButton {
+  position: absolute;
+  top: 70%;
+  left: 42%;
+}
+
+#breakButton {
+  position: absolute;
+  top: 70%;
+  left: 53%;
+  color: white;
+}
+
+h1 {
+  margin-top: 250px !important;
+  color: white;
+  font-family: "Montserrat";
+  z-index: 0;
+}
+
+body {
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    #fc466b 100%
+  );
+}
+
+p {
+    font-family: "Montserrat";
+}
